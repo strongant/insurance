@@ -1,0 +1,71 @@
+#header {
+	clear:both;
+    margin: 0 auto;
+    width: 1238px;
+}
+.head-login .fn-login {
+    color: #393939;
+    float: right;
+    line-height: 40px;
+}
+.head-logo {
+	width: 1170px;
+    border-bottom: 1px solid #e1e1e1;
+    height: 78px;
+    padding: 0 50px 0 17px;
+    font-size: 100%;
+    font-weight: 500;
+    border: 1px solid blue;
+}
+.head-logo h1{
+	background: url("../images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 47px;
+    width: 265px;
+    border:1px solid blue;
+    border-bottom: 1px solid;
+    margin-top: 15px;
+}
+.head-logo p {
+    background: url("../images/tel.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    margin-top: 10px;
+    height: 55px;
+    width: 154px;
+    margin-left: 4px;
+    border:1px solid blue;
+}
+#header .nav li {
+	margin-top: 5px;
+    float: left;
+    text-align: center;
+    width: 120px;
+}
+#header .nav {
+    float: left;
+    font-size: 14px;
+    height: 60px;
+    line-height: 50px;
+    padding-left: 136px;
+    width: 605px;
+}
+#header .nav li a {
+    background: none repeat scroll 0 0 #fff;
+    display: inline-block;
+    height: 60px;
+}
+#header .nav li a.current {
+    border-bottom: 4px solid #f19108;
+    color: #f19108;
+    height: 55px;
+    text-decoration: none;
+}
+#header .nav li a:hover, #header .nav li a.sel {
+    background: url("../images/border.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    color: #f19108;
+    height: 60px;
+    text-decoration: none;
+}
+.head-login a, .head-login a:link, .head-login a:hover {
+    color: #393939;
+}

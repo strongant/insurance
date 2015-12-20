@@ -1,0 +1,154 @@
+.content_two {
+	border: 0px solid #0000FF;
+	width: 800px;
+	height: auto;
+}
+.services_two {
+	background: url("images/sub_main_services.jpg") repeat-y scroll right top rgba(0, 0, 0, 0);
+}
+.list_fei {
+	border-bottom: 1px solid #e1e1e1;
+	margin: 30px 0;
+	border: 0px solid #0000FF;
+}
+.list_fei .fei_img {
+	text-align: left;
+	width: 230px;
+	float: left;
+	border: 0px solid #0000FF;
+}
+.list_fei .fei_right {
+	float: left;
+	height: 270px;
+	width: 100%;
+	border: 0px solid #0000FF;
+}
+.fei_right li {
+	float: left;
+	width: 20%;
+}
+.list_fei .fei_title, #main .fei_title{
+	color: #004285;
+	font-size: 24px;
+	text-align: center;
+	width: 270px;
+}
+.fn_left {
+	float: left;
+}
+.fn_right {
+
+	float: right;
+}
+.fei_right a.agrayleft {
+	background-position: -34px 50%;
+	cursor: pointer;
+}
+.fei_right a.abtn {
+	background: url("../images/arrow3.png") no-repeat scroll 0 50% rgba(0, 0, 0, 0);
+	display: block;
+	height: 250px;
+	overflow: hidden;
+	width: 17px;
+}
+.fei_right a.aleft {
+	float: left;
+}
+.fei_right a.agrayleft {
+	background-position: -34px 50%;
+	cursor: pointer;
+}
+.fei_right a.aright {
+	background-position: -17px 50%;
+	float: right;
+}
+.fei_right a.agrayright {
+	background-position: -51px 50%;
+	cursor: pointer;
+}
+.fei_right .scrolllist {
+	margin: 0 17px 0 18px;
+	width: 730px;
+}
+.fei_right .scrolllist .imglist_w {
+	float: left;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	width: 690px;
+}
+.fei_right .scrolllist .imglist_w ul {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 20000px;
+}
+.fei_right .scrolllist .imglist_w li {
+	background: url("../images/other_list_bg.jpg") no-repeat scroll right top rgba(0, 0, 0, 0);
+	float: left;
+	padding: 0 32px;
+	text-align: center;
+	width: 166px;
+}
+.fei_right .scrolllist .imglist_w li a {
+	color: #cc0033;
+	text-decoration: none;
+}
+.fei_right .scrolllist .imglist_w li a:hover img {
+	opacity: 0.86;
+}
+.tips_important {
+	color: #ec1946;
+}
+.list_fei_t {
+	color: #004285;
+	font-size: 16px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.list_fei_img {
+	height: 101px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-top: 40px;
+	text-align: center;
+}
+.list_fei_d {
+	color: #0066cc;
+	margin-top: 5px;
+	text-align: left;
+}
+.bar_right {
+	border: 0px solid blue;
+	text-align: center;
+	width: 195px;
+	background: #F3F7FA;
+}
+.wx-code {
+	background: url("../images/ewm.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 180px;
+	margin: 45px auto 0;
+	width: 170px;
+}
+.sidenav {
+	padding: 30px 0 0 46px;
+}
+.sidenav dl {
+	font-size: 12px;
+	margin: 20px 0;
+}
+.sidenav dl dt {
+	background: url("../images/ico3.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding-left: 18px;
+	text-align: left;
+}
+.sidenav dl dd {
+	height: 22px;
+	line-height: 22px;
+	padding-left: 32px;
+	text-align: left;
+}
+ #main .fei_title{
+ 	margin-top: -15px;
+ }

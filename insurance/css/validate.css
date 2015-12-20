@@ -1,0 +1,7 @@
+.validate_form li { border: 0px solid #FF0000; margin: 2px 0px; list-style: none;  }
+.validate_form li label { width:80px; border:0px solid #0080FF; float: left; text-align: right;}
+.validate_form li input { border: 1px dotted #0080FF; margin:0px 2px; width:200px;}
+.validate_form li span.mark { font: bolder 28px/20px '宋体'; margin: 0px 2px; }
+.validate_form li span.prompt { font: 28px/20px '宋体'; color:#999; margin: 0px 2px; }
+.validate_form li input.sub1 { width:80px;  }	
+.validate_form li input.error,select.error { border:1px solid #D28C8C; background-color:#FFECEC; }		

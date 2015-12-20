@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>车容宝客户登录</title>
+		
+		
+		<link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/regist.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="head-login">
+					<p class="fn-fav">
+						<a href="javascript:void(0)" onclick="addBookmark()">
+							收藏本站
+						</a>
+					</p>
+					<p id="notLoginSpan" class="fn-login">
+						<a href="login.html">
+							登录
+						</a>
+						<i>|</i>
+						<a href="regist.html">
+							注册
+						</a>
+					</p>
+					<p id="alreadyLoginSpan" class="fn-login" style="display:none;">
+						<a id="username" href="javascript:void(0);">
+							您好
+						</a>
+						<i>|</i>
+						<a href="#">
+							退出
+						</a>
+						<i>|</i>
+						<a href="#" target="_blank">
+							会员中心
+						</a>
+					</p>
+				</div>
+				<div class="head-logo">
+					<div class="head-nav">
+						<h1></h1>
+						<ul class="nav">
+							<li>
+								<a  href="index.html">
+									首页
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									美容保险
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									保障支持
+								</a>
+							</li>
+							<li>
+								<a class="sel" href="#/">
+									客户服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									公司简介
+								</a>
+							</li>
+						</ul>
+					</div>
+					<p>
+
+					</p>
+				</div>
+			</div>
+			<div id="main" class="fn_clear">
+				<div class="sidebar fn_left">
+					<div class="banner">
+						<img class="png" alt="登录" width="395" src="images/login_kv.png">
+					</div>
+				</div>
+				<div class="login_content fn_left">
+					<div class="login_title">
+						用户登录
+					</div>
+					<div class="info_form fn_clear" id="inputForm">
+						<div class="info_name fn_left" >
+							会员号/手机号码/邮箱:
+						</div>
+						<div class="info_content fn_left">
+							<input id="memberMobile" class="query_input required mobile necessary" type="text" maxlength="11" value="" style="width: 220px;" name="memberMobile">
+						</div>
+					</div>
+					<div class="info_form fn_clear">
+						<div class="info_name fn_left" style="80px;">
+							登录密码：
+						</div>
+						<div class="info_content fn_left">
+							<input id="password" maxlength="20" class="query_input required pwd necessary usrpwd" type="password" maxlength="20" style="width: 220px;" name="password">
+						</div>
+					</div>	
+					<div class="info_form fn_clear">
+						<div class="info_name fn_left">
+							验证码：
+						</div>
+						<div class="info_content fn_left">
+							<input id="randomCode" class="query_input required necessary" type="text" maxlength="4" size="4" style="width: 100px;" name="randomCode">
+							<img class="y_img" alt="" name="y_img" title="点击切换图片" src="#" style="display: none;">
+						</div>
+					</div>
+					<div class="query_list marginT50 fn_clear">
+						<div class="querySideRight fn_left" style="width: 350px;">
+							<input id="reg" class="submit_r info_next" type="submit" value="登录"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="fn_clear">
+				<div class="copyright fn_clear">
+					<div class="copyright_info">
+						版权信息
+					</div>
+					<div class="bottom_icos">
+						版权维护
+					</div>
+				</div>
+			</div>
+			<div id="fixedDiv" class="online_service">
+				<a target="_blank" href="#">
+					<img src="images/online_service.png">
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

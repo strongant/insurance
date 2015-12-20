@@ -1,0 +1,376 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>车容宝会员卡购买</title>
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/cardbuy.js"></script>
+
+		<link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/cardbuy.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="head-login">
+					<p class="fn-fav">
+						<a href="javascript:void(0)" onclick="addBookmark()">
+							收藏本站
+						</a>
+					</p>
+					<p id="notLoginSpan" class="fn-login">
+						<a href="#">
+							登录
+						</a>
+						<i>|</i>
+						<a href="#">
+							注册
+						</a>
+					</p>
+					<p id="alreadyLoginSpan" class="fn-login" style="display:none;">
+						<a id="username" href="javascript:void(0);">
+							您好
+						</a>
+						<i>|</i>
+						<a href="#">
+							退出
+						</a>
+						<i>|</i>
+						<a href="#" target="_blank">
+							会员中心
+						</a>
+					</p>
+				</div>
+				<div class="head-logo">
+					<div class="head-nav">
+						<h1></h1>
+						<ul class="nav">
+							<li>
+								<a  href="index.html">
+									首页
+								</a>
+							</li>
+							<li>
+								<a class="sel" href="#">
+									美容保险
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									保障支持
+								</a>
+							</li>
+							<li>
+								<a  href="#/">
+									客户服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									公司简介
+								</a>
+							</li>
+						</ul>
+					</div>
+					<p>
+
+					</p>
+				</div>
+			</div>
+			<div id="main" class="fn_clear">
+				<div class="sidebar fn_left">
+					<div class="sidebar fn_left">
+						<div class="banner">
+							<img alt="吉祥如意保险" src="images/goldCardBig.jpg"  />
+						</div>
+						<div class="quick">
+							<form id="baseInfoForm">
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left" style="line-height: 34px;">
+										单价：
+									</div>
+									<div class="q_right fn_left" style="line-height: 34px;">
+										<span id="unitPrice">980</span>元
+									</div>
+								</div>
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left">
+										购买数量:
+									</div>
+									<div class="q_right fn_left">
+										<div class="opCardNum">
+											<a href="javascript:void(0)" id="increase">
+												+
+											</a>
+											<input tag='1' name="buyCount" class="input_buyCount fn_left" value="1" />
+											<a href="javascript:void(0)" id="decrease">
+												-
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left" style="line-height: 34px;">
+										保险天数：
+									</div>
+									<div class="q_right fn_left" style="line-height: 34px;">
+										1年
+										<span class="quick_info"></span>
+									</div>
+
+								</div>
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left" style="line-height: 34px;">
+										保险时间：
+									</div>
+									<div class="q_right fn_left" style="line-height: 34px;">
+										2014年  至   2015年
+										<span class="quick_info"></span>
+									</div>
+								</div>
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left" style="line-height: 34px;">
+										保险份数：
+									</div>
+									<div class="q_right fn_left" style="line-height: 34px;">
+										1份/车
+										<span class="quick_info"></span>
+									</div>
+								</div>
+
+								<div class="form_list fn_clear">
+									<div class="q_left fn_left" style="line-height: 34px;">
+										最终保费：
+									</div>
+									<div class="q_right fn_left" style="line-height: 34px;border: 1px solid  #66CCFF;">
+										<span id="sumPrice">980</span>元
+									</div>
+								</div>
+								<div class="form_list fn_clear sub">
+									<button id="nextStep" class="submit" type="submit">
+										加入购物车
+									</button>
+
+								</div>
+								<div class="form_list fn_clear sub">
+
+									<button id="nextStep" class="submit" type="submit">
+										立即投保
+									</button>
+
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="content fn_right">
+
+					<div class="main fn_left">
+						<div class="sub_title">
+							<h2 style="color:#4077AF;font-size:18px;">【吉祥如意保险】1年期意外车身刮痕 ,涵盖各种车身表皮擦伤 </h2>
+						</div>
+
+						<div id="tab-container" class="sub_content">
+							<div id="main_right_middle_title">
+								<ul>
+									<li class="a2">
+										<a href="#">
+											特别约定
+										</a>
+									</li>
+									<li class="a3">
+										<a href="#">
+											产品简介
+										</a>
+									</li>
+								</ul>
+								<div id="main_right_middle_title_last"></div>
+							</div>
+							<div id="tab-01" class="sub_list" style="display: block;">
+								<table class="table" width="100%" cellspacing="0" cellpadding="0">
+									<tbody>
+										<tr>
+											<td width="50%" height="30" bgcolor="#d9f6f7" align="center">保险责任</td>
+											<td width="20%" height="30" bgcolor="#d9f6f7" align="center">保险金额</td>
+											<td width="15%" height="30" bgcolor="#d9f6f7" align="center">保险天数</td>
+											<td width="15%" height="30" bgcolor="#d9f6f7" align="center">价格</td>
+										</tr>
+										<tr>
+											<td height="30" bgcolor="#FFFFFF" align="center">车漆表面的刮、擦、划痕修复</td>
+											<td height="30" rowspan="4" align="center">2,000元</td>
+											<td bgcolor="#FFFFFF" align="center" rowspan="6">1年</td>
+											<td bgcolor="#FFFFFF" align="center" rowspan="6">980元</td>
+										</tr>
+										<tr>
+											<td height="30" bgcolor="#FFFFFF" align="center">玻璃损伤后的修复与更换</td>
+
+										</tr>
+										<tr>
+											<td height="30" bgcolor="#FFFFFF" align="center">车辆表面的凹陷修复 </td>
+
+										</tr>
+										<tr>
+											<td height="30" bgcolor="#FFFFFF" align="center">赠送七次免费洗车</td>
+
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+							<div id="tab-02" class="sub_list_yd" style="display: none;">
+								<p>
+									1、会员日活动：公司组织省内游一次并赠送礼品（地点根据当时天气而定）。
+								</p>
+								<p>
+									2，对于满一年无事故会员，可赠送车辆外观及轮胎免费保养一次、内室清洁一次以及发动机精洗保养一次。
+								</p>
+								<p>
+									3，对于满两年无事故会员，公司给予国内五日游套餐（地点根据当时天气而定）。
+								</p>
+								<p>
+									备注：	1.以上费用支出均由总部承担。
+									2.以上套餐项目仅限于20万元以下的车辆。
+								</p>
+
+								<p>
+									4、无其他特别约定
+								</p>
+							</div>
+							<div class="sl_content">
+								<div id="sl_01">
+									<h3 class="sl_title">适用人群</h3>
+								</div>
+								<div class="sl_text">
+									<p>
+										所有有车一族
+									</p>
+								</div>
+							</div>
+							<div class="sl_content">
+								<div id="sl_07">
+									<h3 class="sl_title">保障范围</h3>
+								</div>
+								<div class="sl_text">
+									<p>
+										一般意外车漆表面的刮、擦、划痕修复，全方位保障
+									</p>
+								</div>
+							</div>
+							<div class="sl_tip">
+								<div class="tip_title">
+									购买须知
+								</div>
+								<div class="tip_text">
+									<p>
+										1、每个会员可以购买多张会员卡
+									</p>
+									<p>
+										2、套餐项目仅限于20万元以下的车辆。
+									</p>
+									<p>
+										3、购买前请仔细阅读条款：
+										<a target="_blank" href="#">
+											车容宝美容保险条款
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bar_right fn_right">
+						<div class="wx-code"></div>
+						<div class="kf"></div>
+						<div class="sidenav">
+							<dl>
+								<dt>
+									常用功能
+								</dt>
+								<dd>
+									<a href="#" ref="nofollow" target="_blank">
+										我的购物车
+									</a>
+								</dd>
+								<dd>
+									<a href="#" ref="nofollow" target="_blank">
+										一键续保
+									</a>
+								</dd>
+								<dd>
+									<a href="#" ref="nofollow" target="_blank">
+										预约投保
+									</a>
+								</dd>
+								<dd>
+									<a href="#" ref="nofollow" target="_blank">
+										订单查询
+									</a>
+								</dd>
+								<dd>
+									<a href="#" ref="nofollow" target="_self">
+										理赔查询
+									</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									投保指引
+								</dt>
+								<dd>
+									<a href="#" target="_blank">
+										网上投保帮助
+									</a>
+								</dd>
+								<dd>
+									<a href="#" target="_blank">
+										网上支付帮助
+									</a>
+								</dd>
+								<dd>
+									<a href="#" target="_blank">
+										保单及配送帮助
+									</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									帮助中心
+								</dt>
+								<dd>
+									<a href="#" target="_blank">
+										安全隐私
+									</a>
+								</dd>
+								<dd>
+									<a href="http://www.axatp.com/helpcenter/sitemap.html" target="_blank">
+										网站地图
+									</a>
+								</dd>
+							</dl>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer" class="fn_clear">
+				<div class="copyright fn_clear">
+					<div class="copyright_info">
+						版权信息
+					</div>
+					<div class="bottom_icos">
+						版权维护
+					</div>
+				</div>
+			</div>
+			<div id="fixedDiv" class="online_service">
+				<a target="_blank" href="#">
+					<img src="images/online_service.png">
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
+

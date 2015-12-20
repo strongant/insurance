@@ -1,0 +1,221 @@
+.content {
+	border: 0px solid blue;
+}
+#mycart-detail {
+	float: right;
+	border-color: #999 #ddd #ddd;
+	border-style: solid;
+	border-width: 2px 1px 1px;
+	overflow: visible;
+	position: relative;
+}
+#mycart-detail .corner {
+	display: none;
+}
+#mycart-detail .mt {
+	background: none repeat scroll 0 0 #f7f7f7;
+	height: 30px;
+}
+#mycart-detail .mt h2 {
+	color: #333;
+	font: 14px/30px 微软雅黑;
+	padding-left: 9px;
+}
+#mycart-detail .mt h2 s {
+	background: url("../images/20130425D.png") no-repeat scroll -90px -74px rgba(0, 0, 0, 0);
+	float: left;
+	height: 16px;
+	margin: 8px 8px 0 0;
+	width: 20px;
+}
+#mycart-detail .mc {
+	padding-top: 6px;
+}
+#mycart-detail h3 {
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0 10px;
+}
+#mycart-detail dl {
+	overflow: hidden;
+}
+#mycart-detail dt {
+	float: left;
+	margin: 0;
+}
+#mycart-detail dd {
+	float: right;
+	width: 110px;
+}
+#mycart-detail .new {
+	border-bottom: 1px dotted #ddd;
+	margin: 10px 10px 8px;
+	padding-bottom: 8px;
+}
+#mycart-detail .new .p-price span {
+	color: #e4393c;
+	font-family: verdana;
+	font-size: 12px;
+}
+#mycart-detail .old {
+	padding: 10px;
+}
+#mycart-detail .total {
+	background: none repeat scroll 0 0 #f7f7f7;
+	margin-top: 10px;
+	padding: 10px;
+}
+#mycart-detail .total strong {
+	color: #e4393c;
+	font-family: verdana;
+	font-size: 15px;
+	padding: 0 3px;
+}
+#mycart-detail #skuCount {
+	font-size: 12px;
+}
+#mycart-detail .btns {
+	background: none repeat scroll 0 0 #f7f7f7;
+	padding: 0 10px 10px;
+}
+#mycart-detail .btn-pay {
+	background: url("../images/20130425D.png") no-repeat scroll 0 0 red;
+	display: block;
+	height: 36px;
+	line-height: 100px;
+	overflow: hidden;
+	width: 189px;
+}
+.m1 .p-price .p-tag {
+	float: none;
+}
+.m1 .p-price .p-tag a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.p-name a:link, .p-name a:visited {
+	color: #666;
+}
+.p-name a:hover {
+	color: #e4393c;
+}
+.m1 .p-name {
+	height: 1.5em;
+}
+.m1 .mc dd .p-price {
+	margin-bottom: 5px;
+}
+.m1 .p-price {
+	height: 18px;
+	overflow: hidden;
+}
+.m1 .p-price img {
+	float: left;
+	margin-top: 1px;
+}
+.m1 .p-price span {
+	float: left;
+	padding-left: 4px;
+}
+.m1 .p-review a:link, .m1 .p-review a:visited {
+	color: #005aa0;
+}
+.m1 .mc dd .p-price {
+	margin-bottom: 5px;
+}
+.m1 .p-price {
+	height: 18px;
+	overflow: hidden;
+}
+.m1 .p-price img {
+	float: left;
+	margin-top: 1px;
+}
+.m1 .p-price span {
+	float: left;
+	padding-left: 4px;
+}
+.m1 .p-review a:link, .m1 .p-review a:visited {
+	color: #005aa0;
+}
+#promotion .p-price span {
+	color: red;
+	font-weight: bold;
+}
+.p-price {
+	color: #999;
+}
+.p-price strong, .p-market strong {
+	color: #e4393c;
+}
+.p-name, .p-detail {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.p-name a {
+	line-height: 1.2;
+}
+.left {
+	width: 770px;
+}
+#succeed, .left {
+	float: left;
+	border: 1px solid #0080FF;
+}
+#succeed .success {
+	padding: 31px 10px 16px 140px;
+}
+#succeed .success {
+	height: 65px;
+	overflow: hidden;
+	padding: 31px 10px 16px 80px;
+}
+#succeed .success b, #succeed .success-b {
+	background: url("../images/20130425D.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+	color: #7abd54;
+	float: left;
+	font: 24px/40px 微软雅黑;
+	height: 40px;
+	overflow: hidden;
+	padding-left: 46px;
+	width: 304px;
+	margin-left: -70px;
+}
+#succeed .success-b {
+	color: #999;
+	font: 12px/150% Arial, Verdana, "宋体";
+	height: auto;
+}
+#succeed .success-b h3 {
+	color: #7abd54;
+	font: 24px/40px 微软雅黑;
+}
+#succeed .btn-continue {
+    background-position: -90px -37px;
+    float: right;
+    height: 36px;
+    width: 94px;
+}
+#succeed .btn-pay, #succeed .btn-continue, #succeed .btn-append {
+	background: url("../images/20130425D.png") no-repeat scroll 0 0 #ccc;
+	display: block;
+	line-height: 100px;
+	overflow: hidden;
+}
+#succeed .btn-pay {
+	background-position: 0 0;
+	float: right;
+	height: 36px;
+	margin: 0 25px 0 10px;
+	width: 189px;
+}
+#succeed .success {
+	padding: 31px 10px 16px 140px;
+}
+#succeed .btn-pay {
+	margin: 0 40px 0 10px;
+}
+.success {
+	padding: 31px 10px 16px 140px;
+}
